@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { primercomponente } from './components/primercomponente';
-import { segundocomponente } from './components/segundocomponente';
+import { Primercomponente } from './components/Primercomponente';
+import { Segundocomponente } from './components/Segundocomponente';
 
 function App() {
   return (
@@ -9,10 +9,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          iniciando con react
+          Iniciando con React
         </p>
-        <primercomponente/>
-        <segundocomponente/>
+
+        <Primercomponente />
+
+        <Segundocomponente/>
+
       </header>
     </div>
   );

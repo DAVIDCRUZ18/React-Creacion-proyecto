@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const segundocomponente = () => {
+export const Segundocomponente = () => {
   return (
       <div>
-          <h1>segundocomponente</h1>
+          <h1>segundo componente</h1>
+          <p>intento #2</p>
       </div>
   )
 }

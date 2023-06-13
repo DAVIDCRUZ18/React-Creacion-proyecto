@@ -1,13 +1,10 @@
-import React from 'react';
+import React from 'react'
 
-
-const App = () => {
+export const Primercomponente = () => {
   return (
     <div>
-      <h1>¡Mi primera aplicación con React!</h1>
-      <primercomponente />
+      <h1>Primer componente</h1>
+      <p>intento #2</p>
     </div>
-  );
-};
-
-export default App;
+  )
+}
