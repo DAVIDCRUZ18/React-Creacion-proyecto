@@ -16,16 +16,6 @@ export const Primercomponente = () => {
   }
   return (
     <div>
-      <h1>boton</h1>
-      <p>intento #2</p>
-      <button onClick={Llamar_api}>utilizacion de api</button>
-
-      <div>
-        {
-          Productos.length !==0 && 
-          Productos[0].nombre
-        }
-      </div>
       <header class="sticky-top">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
           <div class="container-fluid">
@@ -49,12 +39,20 @@ export const Primercomponente = () => {
                 <li class="nav-item">
                   <a class="nav-link active" href="Contacto.html">
                     <i class="bi bi-clipboard2-fill"></i> registro
+                    <button onClick={Llamar_api}>utilizacion de api</button>
                   </a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
+        
+        <div>
+          {
+            Productos.length !== 0 &&
+            Productos[0].nombre
+          }
+        </div>
       </header>
     </div>
   )
