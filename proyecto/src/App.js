@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { Primercomponente } from './components/Primercomponente';
 import { Segundocomponente } from './components/Segundocomponente';
+import 'node_modules/bootstrap/dist/css/bootstrap.css';
+import 'node_modules/bootstrap/dist/js/bootstrap.js';
 
 function App() {
   return (
