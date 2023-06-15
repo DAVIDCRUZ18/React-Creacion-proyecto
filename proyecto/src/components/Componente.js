@@ -19,10 +19,6 @@ export const Componente = () => {
     }
   return (
       <div>
-          <div>
-              {Productos.length !== 0 && Productos[0].nombre}
-              <button onClick={Llamar_api}>Activar API</button>
-          </div>
         <Navbar bg="light" expand="lg">
           <Container>
               <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
@@ -45,7 +41,11 @@ export const Componente = () => {
                   </Nav>
               </Navbar.Collapse>
           </Container>
-        </Navbar>
+          </Navbar>
+          <div>
+              {Productos.length !== 0 && Productos[0].nombre}
+              <button onClick={Llamar_api}>Activar API</button>
+          </div>
       </div>
   )
 }

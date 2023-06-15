@@ -1,4 +1,5 @@
 import './App.css';
+import BasicExample from './components/BasicExample';
 import { Componente } from './components/Componente';
 
 
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       
       <Componente/>
-
+      <BasicExample/>
     </div>
   );
 }
