@@ -53,6 +53,19 @@ export const Primercomponente = () => {
             Productos[0].nombre
           }
         </div>
+        const crearTarjeta = (nombre, descripcion, existencia) => `
+
+        <div class="tarjeta">
+
+          <h3>${nombre}</h3>
+
+          <p>${descripcion}</p>
+
+          <p class="verde">Existencia: ${existencia}</p>
+
+        </div>
+
+`
       </header>
     </div>
   )
